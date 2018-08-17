@@ -7,7 +7,7 @@
 
 int main()
 {
-    // data to use for struct
+    // data to use for class
     std::string myName = "Hope Kim";
     int myAge = 19;
     
