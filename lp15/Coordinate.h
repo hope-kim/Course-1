@@ -1,12 +1,15 @@
 // Hope Kim
 // ITP 165, Fall 2017
-// Lab Practical 17
+// Lab Practical 15
 // hopekim@usc.edu
 
 #pragma once
 
 class Coordinate
 {
+private:
+	double mXCoord;
+	double mYCoord;
 public:
 	// Constructors
 	Coordinate();
@@ -23,9 +26,5 @@ public:
 	// Display
 	void print();
 	double calcDist(Coordinate* p1);
-
-private:
-	double mXCoord;
-	double mYCoord;
 };
 
