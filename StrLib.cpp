@@ -1,3 +1,8 @@
+// Name
+// ITP 165, Fall 2017
+// Lab Practical 16
+// hopekim@usc.edu
+
 #include "StrLib.h"
 
 std::vector<std::string> strSplit(const std::string& str, char splitChar)
