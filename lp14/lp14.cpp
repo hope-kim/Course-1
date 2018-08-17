@@ -7,7 +7,7 @@
 
 int main()
 {
-    // data to use for class
+    // data to use for Person class
     std::string myName = "Hope Kim";
     int myAge = 19;
     
