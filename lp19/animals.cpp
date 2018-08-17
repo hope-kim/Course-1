@@ -1,6 +1,6 @@
 // Hope Kim
 // ITP 165, Fall 2017
-// Lab Practical 21
+// Lab Practical 19
 // hopekim@usc.edu
 
 #include "animals.h"
