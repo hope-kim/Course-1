@@ -1,13 +1,12 @@
 // Hope Kim
 // ITP 165, Fall 2017
-// Lab Practical 14
+// Lab Practical 12
 // hopekim@usc.edu
 
 
 #include <iostream>
 #include <string>
 #include <cstdlib>
-
 
 // Function: makeRandArray
 // Purpose: generate an array filled with random numbers
