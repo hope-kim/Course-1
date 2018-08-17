@@ -1,11 +1,12 @@
 // Hope Kim
 // ITP 165, Fall 2017
-// Lab Practical 20
+// Lab Practical 18
 // hopekim@usc.edu
 
 #pragma once
 #include <string>
 
+// Employee class
 class Employee
 {
 protected:
@@ -18,6 +19,7 @@ public:
     virtual double calculatePay();
 };
 
+// FullTime class
 class FullTime : public Employee
 {
 private:
@@ -29,6 +31,7 @@ public:
     double calculatePay();
 };
 
+// PartTime class
 class PartTime : public Employee
 {
 private:
