@@ -8,10 +8,13 @@
 
 class Person
 {
+
+// private member variables
 private:
     std::string mName;
     int mAge;
-    
+
+// public functions
 public:
     // Default constructor
     Person();
@@ -26,6 +29,5 @@ public:
     // Getter for age
     int getAge();
     // Printer
-    void printInfo();
-    
+    void printInfo(); 
 };
