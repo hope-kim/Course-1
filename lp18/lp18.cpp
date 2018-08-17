@@ -1,6 +1,6 @@
 // Hope Kim
 // ITP 165, Fall 2017
-// Lab Practical 20
+// Lab Practical 18
 // hopekim@usc.edu
 
 #include <iostream>
@@ -10,6 +10,7 @@
 
 int main()
 {
+    // variables to hold user input
     int choice = 0;
     std::string inName;
     std::string inID;
@@ -20,8 +21,10 @@ int main()
     Employee* newEmp = nullptr;
     std::vector<Employee*> employees;
     
+    // repeat until quit
     do
     {
+        // asking for user input
         std::cout << "What kind of employee do you have?" << std::endl;
         std::cout << "\t1. Full time employee" << std::endl;
         std::cout << "\t2. Part time employee" << std::endl;
@@ -29,8 +32,10 @@ int main()
         std::cout << "> ";
         std::cin >> choice;
         std::cin.ignore();
+        
         switch (choice)
         {
+            // full-time employee
             case 1:
                 std::cout << "Making a full-time employee..." << std::endl;
                 std::cout << "Name: ";
@@ -44,6 +49,8 @@ int main()
                 newEmp = new FullTime(inName, inID, inSalary, inBonus);
                 employees.push_back(newEmp);
                 break;
+                
+            // part-time employee
             case 2:
                 std::cout << "Making a part-time employee..." << std::endl;
                 std::cout << "Name: ";
@@ -57,7 +64,8 @@ int main()
                 newEmp = new PartTime(inName, inID, inHourlyWage, inHoursWorked);
                 employees.push_back(newEmp);
                 break;
-                
+            
+            // default case
             default:
                 std::cout << "Quitting and displaying employees!" << std::endl;
                 break;
@@ -65,6 +73,7 @@ int main()
     }
     while (choice != 3);
     
+    // deallocate memory
     for (int i = 0; i < employees.size(); i++)
     {
         employees[i]->display();
