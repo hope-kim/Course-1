@@ -1,6 +1,6 @@
 // Hope Kim
 // ITP 165, Fall 2017
-// Lab Practical 20
+// Lab Practical 18
 // hopekim@usc.edu
 
 #include "Employee.h"
