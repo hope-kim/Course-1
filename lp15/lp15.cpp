@@ -1,6 +1,6 @@
 // Hope Kim
 // ITP 165, Fall 2017
-// Lab Practical 17
+// Lab Practical 15
 // hopekim@usc.edu
 
 #include <iostream>
@@ -8,9 +8,11 @@
 
 int main()
 {
+    // data for Pyramid class
     const unsigned int bSize = 4;
     Pyramid myPyramid(bSize);
     
+    // data for Coordinate class
     Coordinate cArr[bSize];
     cArr[0].setX(0.0);
     cArr[0].setY(1.1);
