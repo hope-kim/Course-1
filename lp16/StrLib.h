@@ -1,3 +1,8 @@
+// Name
+// ITP 165, Fall 2017
+// Lab Practical 16
+// hopekim@usc.edu
+
 #pragma once
 
 #include <string>
