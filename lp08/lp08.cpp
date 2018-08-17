@@ -5,6 +5,7 @@
 
 #include <iostream>
 
+// arithmetic functions
 int add(int x, int y)
 {
     return x + y;
@@ -22,6 +23,7 @@ int mul(int x, int y)
 
 int divide(int x, int y)
 {
+    // divide by zero case
     if (y == 0)
     {
         std::cout << "Cannot divide by zero!" << std::endl;
@@ -46,10 +48,12 @@ int exp(int x, int y)
 
 int main()
 {
+    // variables to hold user input
     int first = 0;
     int second = 0;
     int option = 0;
     
+    // asking for user input
     std::cout << "Calculator..." << std::endl;
     std::cout << "Enter first input: ";
     std::cin >> first;
@@ -59,7 +63,7 @@ int main()
     std::cout << "Enter option: ";
     std::cin >> option;
     
-    
+    // cases for arithmetic operations
     if (option == 0)
     {
         std::cout << "Quitting!" << std::endl;
