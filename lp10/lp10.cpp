@@ -1,11 +1,10 @@
 // Hope Kim
 // ITP 165, Fall 2017
-// Lab Practical 12
+// Lab Practical 10
 // hopekim@usc.edu
 
 #include <iostream>
 #include <cmath>
-
 
 // Structure for coordinates
 struct Coordinate
@@ -27,7 +26,6 @@ void printCoord(Coordinate& item)
 // Purpose: calculates the distance between the two coordinates
 // Parameters: two structure with the coordinates' xs and ys
 // Returns: double retVal
-
 double calcDist (Coordinate& c1, Coordinate& c2)
 {
     double retVal = 0.0;
