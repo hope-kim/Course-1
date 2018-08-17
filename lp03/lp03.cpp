@@ -6,10 +6,12 @@
 #include <iostream>
 int main()
 {
+    // variables to hold user input
     double first = 0.0;
     double second = 0.0;
     double option = 0.0;
     
+    // asking for user input
     std::cout << "Calculator..." << std::endl;
     std::cout << "Enter first input: ";
     std::cin >> first;
@@ -19,6 +21,7 @@ int main()
     std::cout << "Enter option: ";
     std::cin >> option;
     
+    // cases for arithmetic operations
     if (option == 1.0)
     {
         std::cout << first << " + " << second << " = " << first+second << std::endl;
@@ -33,7 +36,7 @@ int main()
     }
     else if (option == 4.0)
     {
-      
+        // divide by zero case
         if (second == 0.0)
         {
             std::cout << "Cannot divide by zero!" << std::endl;
@@ -43,6 +46,8 @@ int main()
         std::cout << first << " / " << second << " = " << first/second << std::endl;
         }
     }
+    
+    // fail case
     else
     {
         std::cout << "Error: Invalid option!" << std::endl;
