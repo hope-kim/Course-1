@@ -1,6 +1,6 @@
 // Hope Kim
 // ITP 165, Fall 2017
-// Lab Practical 15
+// Lab Practical 13
 // hopekim@usc.edu
 
 #include <iostream>
@@ -14,7 +14,8 @@ class myCoordinate
 private:
     double mX;
     double mY;
-// Public Functions
+    
+// Public functions
 public:
     // Function: setX
     // Purpose: sets the x coordinate of the private member variable mX
@@ -121,4 +122,3 @@ int main()
     
     return 0;
 }
-
