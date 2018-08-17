@@ -6,11 +6,14 @@
 #include <iostream>
 int main()
 {
+    // variable to hold user input
     int fave;
     
+    // asking for user input
     std::cout << "Please tell me your favorite number: ";
     std::cin >> fave;
     
+    // if statements for division cases
     if (fave % 2 == 0)
     {
         std::cout << "Your number is divisible by 2!" << std::endl;
